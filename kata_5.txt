@@ -1,0 +1,18 @@
+”automate the grading of simple programming assignments”
+
+FastApi api rest communicating with lms
+
+Requirements
+1.- aws S3 store source code, **Containerization** with ECS and Sandboxing using security features in ECS
+
+2.- Ruby gem-like for audit in FastApi
+
+3.- Python FastApi,  ML similarity  TF-IDF, euclidian distance
+      Assume TurnInIt have api
+4.- assume LMS has api
+
+5, 6, 7.- business logic
+
+Additional Context
+1.- assume LMS has api integration
+3.- assume there are few different languages accepted for the assignments
