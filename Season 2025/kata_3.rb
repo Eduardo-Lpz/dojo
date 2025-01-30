@@ -28,3 +28,23 @@ def number_of_pairs(gloves)
 
   pairs
 end
+
+def number_of_pairs(gloves)
+  mapped_gloves = {}
+
+  for glove in gloves do
+    if mapped_gloves[glove]
+      mapped_gloves[glove] += 1
+    else
+      mapped_gloves[glove] = 1
+    end
+  end
+
+  pairs = 0
+
+  for _, quantity in mapped_gloves do
+    pairs += quantity / 2
+  end
+
+  pairs
+end
